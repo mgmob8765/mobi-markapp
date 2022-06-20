@@ -1,6 +1,6 @@
 version: 3.8
 networks:
-  mark-bridge111:
+  markbridge111:
 services:
   markapp007:
     image: markciapp:v1 
@@ -10,4 +10,4 @@ services:
     - "1111:80"
     restart: always 
     networks: # use bridge created above 
-    - mark-bridge111
+    - markbridge111
